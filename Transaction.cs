@@ -1,12 +1,21 @@
 namespace SupportBank
 {
-    public class Transactions
+    public class Transaction
     {
-        public string TransactionLine { get; set; }
+        public DateTime Date{get;set;}
+        public string From {get;set;}
+        public string To {get;set;}
+        public string Narrative {get;set;}
+        public double Amount {get;set;}
 
-        public Transactions(string transactionLine)
+
+        public Transaction(DateTime date,string from, string to, string narrative, double amount)
         {
-            TransactionLine = transactionLine;
+            Date = date;
+            From = from;
+            To = to;
+            Narrative = narrative;
+            Amount = amount;
         } 
     }
 }

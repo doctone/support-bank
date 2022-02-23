@@ -4,19 +4,28 @@ namespace SupportBank
 {
     public class SupportBank
     {
-        public List<Transactions> Transactions { get; set; }
+        public List<Transaction> Transactions { get; set; }
 
-        public SupportBank(List<Transactions> transactions)
+        public SupportBank(List<Transaction> transactions)
         {
             Transactions = transactions;
         }
 
-        public void getTransaction()
+        public void GetTransactions()
         {
             var lines = System.IO.File.ReadAllLines("./Transactions2014.txt");
-            foreach (var line in lines)
+            for (int i=1; i < lines.Length; i++)
             {
-                Transactions.Add(new Transactions(line));
+                string[] T = lines[i].Split(",");
+                Transactions.Add(new Transaction(DateTime.Parse(T[0]),T[1],T[2],T[3],Double.Parse(T[4])));
+            }
+        }
+
+        public void PrintTransactions()
+        {
+            foreach (var t in Transactions)
+            {
+                Console.WriteLine(t.To);
             }
         }
     }
