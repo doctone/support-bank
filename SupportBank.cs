@@ -18,7 +18,7 @@ namespace SupportBank
             for (int i=1; i < lines.Length; i++)
             {
                 string[] T = lines[i].Split(",");
-                Transactions.Add(new Transaction(DateTime.Parse(T[0]),T[1],T[2],T[3],Double.Parse(T[4])));
+                Transactions.Add(new Transaction(DateTime.Parse(T[0]),T[1],T[2],T[3],Decimal.Parse(T[4])));
             }
             return Transactions;
         }
@@ -48,7 +48,6 @@ namespace SupportBank
                 {
                     names.Add(transaction.From);
                 }
-
             }
             foreach (string name in names)
             {

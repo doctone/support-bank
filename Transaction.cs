@@ -6,10 +6,10 @@ namespace SupportBank
         public string From {get;set;}
         public string To {get;set;}
         public string Narrative {get;set;}
-        public double Amount {get;set;}
+        public decimal Amount {get;set;}
 
 
-        public Transaction(DateTime date,string from, string to, string narrative, double amount)
+        public Transaction(DateTime date,string from, string to, string narrative, decimal amount)
         {
             Date = date;
             From = from;
