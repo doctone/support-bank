@@ -11,7 +11,7 @@ namespace SupportBank
             Transactions = transactions;
         }
 
-        public void GetTransactions()
+        public List<Transaction> GetTransactions()
         {
             var lines = System.IO.File.ReadAllLines("./Transactions2014.txt");
             for (int i=1; i < lines.Length; i++)
@@ -19,6 +19,7 @@ namespace SupportBank
                 string[] T = lines[i].Split(",");
                 Transactions.Add(new Transaction(DateTime.Parse(T[0]),T[1],T[2],T[3],Double.Parse(T[4])));
             }
+            return Transactions;
         }
 
         public void PrintTransactions()
