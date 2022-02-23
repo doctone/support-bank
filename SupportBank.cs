@@ -56,5 +56,16 @@ namespace SupportBank
             return Accounts;
         }
 
+        public void ProvideAccountTransactions(Account account)
+        {
+            foreach (Transaction t in Transactions)
+            {
+                if (t.To == account.AccountName || t.From == account.AccountName)
+                {
+                    account.Transactions.Add(t);
+                }
+            }
+        }
+
     }
 }
