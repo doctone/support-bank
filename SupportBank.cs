@@ -1,5 +1,3 @@
-using System.IO;
-
 namespace SupportBank
 {
     public class SupportBank
@@ -29,20 +27,32 @@ namespace SupportBank
         {
             foreach (var t in Transactions)
             {
-                Console.WriteLine(t.To);
+                Console.WriteLine("Transaction:");
+                Console.WriteLine($"    {t.Date}");
+                Console.WriteLine($"    from {t.From} to {t.To}");
+                Console.WriteLine($"    {t.Narrative}");
+                Console.WriteLine($"    Total: {t.Amount}");
             }
         }
 
         public List<Account> GetAccounts()
         {
+            var names = new List<string>(){};
             foreach (Transaction transaction in Transactions)
             {
-                Account acc = new Account(transaction.To);
-                Accounts.Add(acc);
-                Account acc1 = new Account(transaction.From);
-                Accounts.Add(acc1);
-                Accounts = Accounts.Distinct().ToList();
+                if (!names.Contains(transaction.To))
+                {
+                    names.Add(transaction.To);
+                }
+                if (!names.Contains(transaction.From))
+                {
+                    names.Add(transaction.From);
+                }
 
+            }
+            foreach (string name in names)
+            {
+                Accounts.Add(new Account(name));
             }
             return Accounts;
         }
