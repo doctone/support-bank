@@ -6,9 +6,15 @@ namespace SupportBank
     {
         public static void Main(string[] args)
         {
-          var newBank = new SupportBank(new List<Transaction>(){});
+          var newBank = new SupportBank(new List<Transaction>(){}, new List<Account>(){});
           newBank.GetTransactions();
-          newBank.PrintTransactions();
+          var accounts = newBank.GetAccounts();
+          foreach (var account in accounts)
+          {
+            Console.WriteLine(account.AccountName);
+          }
+
         }
+      
     }
 }

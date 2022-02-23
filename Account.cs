@@ -2,14 +2,10 @@ namespace SupportBank
 {
     public class Account
         {
-            string AccountName { get; set; }
-
-            decimal Balance { get; set; }
-
-            public Account(string accountName, decimal balance)
+            public string AccountName { get; set; }
+            public Account(string accountName)
             {
                 AccountName = accountName;
-                Balance = balance;
             }
         }
 }

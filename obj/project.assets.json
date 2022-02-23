@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\samjam\\.nuget\\packages\\": {}
+    "C:\\Users\\linbal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\Support-bank.csproj",
+      "projectUniqueName": "C:\\Teamwork\\support-bank\\Support-bank.csproj",
       "projectName": "Support-bank",
-      "projectPath": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\Support-bank.csproj",
-      "packagesPath": "C:\\Users\\samjam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\obj\\",
+      "projectPath": "C:\\Teamwork\\support-bank\\Support-bank.csproj",
+      "packagesPath": "C:\\Users\\linbal\\.nuget\\packages\\",
+      "outputPath": "C:\\Teamwork\\support-bank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\samjam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\linbal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

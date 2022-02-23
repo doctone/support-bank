@@ -6,9 +6,12 @@ namespace SupportBank
     {
         public List<Transaction> Transactions { get; set; }
 
-        public SupportBank(List<Transaction> transactions)
+        private List<Account> Accounts { get; set; }
+
+        public SupportBank(List<Transaction> transactions, List<Account> accounts)
         {
             Transactions = transactions;
+            Accounts = accounts;
         }
 
         public List<Transaction> GetTransactions()
@@ -29,5 +32,20 @@ namespace SupportBank
                 Console.WriteLine(t.To);
             }
         }
+
+        public List<Account> GetAccounts()
+        {
+            foreach (Transaction transaction in Transactions)
+            {
+                Account acc = new Account(transaction.To);
+                Accounts.Add(acc);
+                Account acc1 = new Account(transaction.From);
+                Accounts.Add(acc1);
+                Accounts = Accounts.Distinct().ToList();
+
+            }
+            return Accounts;
+        }
+
     }
 }
