@@ -6,7 +6,12 @@ namespace SupportBank
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Support Bank!");
+          var newBank = new SupportBank(new List<Transactions>(){});
+          newBank.getTransaction();
+          foreach (var transaction in newBank.Transactions)
+          {
+              Console.WriteLine(transaction.TransactionLine);
+          }
         }
     }
 }
