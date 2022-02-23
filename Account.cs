@@ -11,7 +11,7 @@ namespace SupportBank
             }
             public void PrintTransactions()
             {
-                Console.WriteLine($"-------------------------------Transactions for {AccountName}");
+                Console.WriteLine($"-------------------------------Transactions for {AccountName} -------------------------------");
                 foreach (Transaction t in Transactions)
                 {
                     Console.WriteLine("Transaction:");
@@ -20,6 +20,22 @@ namespace SupportBank
                     Console.WriteLine($"    {t.Narrative}");
                     Console.WriteLine($"    Total: {t.Amount}");
                 }
+            }
+            public decimal GetBalance()
+            {
+                decimal Balance = 0;
+                foreach (Transaction t in Transactions)
+                {
+                    if (AccountName == t.To)
+                    {
+                        Balance += t.Amount;
+                    } 
+                    else
+                    {
+                        Balance -= t.Amount;
+                    }
+                }
+                return Balance;
             }
         }
 }

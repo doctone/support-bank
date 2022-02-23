@@ -16,7 +16,7 @@ namespace SupportBank
           }
           foreach (var account in accounts)
           {
-              account.PrintTransactions();
+              Console.WriteLine($"Balance for {account.AccountName}: £" + account.GetBalance());
           }
 
         }
