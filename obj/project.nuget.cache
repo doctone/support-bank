@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NLa+4YUyIKfq/moQYs9neb/bxwV7LUQcOWUwgMUEcPyfGSrw7ycRtLUS/5WxyDvweeyotLU5VG0fi1uZgP10bA==",
+  "dgSpecHash": "ZmGvT0GtlZwf5ut3oM61q3DEXPn+ncGPiWXG0Ih6U2X4me9rJbrvcYwqe0nmGIk1RUbpWIwgdgp/CAx221rCDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\Support-bank.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Teamwork\\support-bank\\Support-bank.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\linbal\\.nuget\\packages\\nlog\\5.0.0-rc2\\nlog.5.0.0-rc2.nupkg.sha512"
+  ],
   "logs": []
 }

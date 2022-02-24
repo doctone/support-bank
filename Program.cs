@@ -21,6 +21,12 @@ namespace SupportBank
               newBank.ListAll();
               return;
             }
+            if (args[1] != "all")
+            {
+              newBank.List(args[1]);
+              return;
+            }
+
           }
           // newBank.ListAll();
           // newBank.List("Ben B");
