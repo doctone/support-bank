@@ -4,12 +4,9 @@ namespace SupportBank
     {
         public List<Transaction> Transactions { get; set; }
 
-        private List<Account> Accounts { get; set; }
-
-        public SupportBank(List<Transaction> transactions, List<Account> accounts)
+        public SupportBank(List<Transaction> transactions)
         {
             Transactions = transactions;
-            Accounts = accounts;
         }
         public void List(string accountName)
         {
@@ -39,6 +36,7 @@ namespace SupportBank
 
         public List<Account> GetAccounts()
         {
+            var Accounts = new List<Account>();
             var names = new List<string>(){};
             foreach (Transaction transaction in Transactions)
             {
@@ -60,7 +58,8 @@ namespace SupportBank
 
         public void ListAll()
         {
-            foreach (var account in Accounts)
+            var accounts = GetAccounts();
+            foreach (var account in accounts)
                 {
                     Console.WriteLine($"Balance for {account.AccountName}: £" + GetBalance(account.AccountName));
                 }
