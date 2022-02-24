@@ -9,7 +9,6 @@ namespace SupportBank
                 AccountName = accountName;
                 Transactions = new List<Transaction>();
             }
-
             public decimal GetBalance()
             {
                 decimal Balance = 0;
