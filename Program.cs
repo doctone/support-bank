@@ -12,7 +12,7 @@ namespace SupportBank
           var accounts = newBank.GetAccounts();
         //   newBank.PrintTransactions();
           
-          // newBank.ListAll();
+          newBank.ListAll();
           newBank.PrintTransactions("Ben B");
         }
     }

@@ -83,9 +83,27 @@ namespace SupportBank
         {
             foreach (var account in Accounts)
                 {
-                    Console.WriteLine($"Balance for {account.AccountName}: £" + account.GetBalance());
+                    Console.WriteLine($"Balance for {account.AccountName}: £" + GetBalance(account.AccountName));
                 }
         }
+
+        public decimal GetBalance(string AccountName)
+            {
+                var personalTransactions = GetTransactions(AccountName);
+                decimal Balance = 0;
+                foreach (Transaction t in personalTransactions)
+                {
+                    if (AccountName == t.To)
+                    {
+                        Balance += t.Amount;
+                    } 
+                    else
+                    {
+                        Balance -= t.Amount;
+                    }
+                }
+                return Balance;
+            }
 
     }
 }
