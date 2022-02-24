@@ -55,5 +55,13 @@ namespace SupportBank
             }
         }
 
+        public void ListAll()
+        {
+            foreach (var account in Accounts)
+                {
+                    Console.WriteLine($"Balance for {account.AccountName}: £" + account.GetBalance());
+                }
+        }
+
     }
 }

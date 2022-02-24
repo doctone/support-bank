@@ -15,10 +15,7 @@ namespace SupportBank
           {
             newBank.ProvideAccountTransactions(account);
           }
-          foreach (var account in accounts)
-          {
-              Console.WriteLine($"Balance for {account.AccountName}: £" + account.GetBalance());
-          }
+          newBank.ListAll();
 
         }
       
