@@ -6,8 +6,9 @@ namespace SupportBank
     {
         public static void Main(string[] args)
         {
-          var newBank = new SupportBank(new List<Transaction>(){}, new List<Account>(){});
-          newBank.GetTransactions();
+          var fileReader = new FileReader();
+          List<Transaction> transactions = fileReader.GetTransactions();
+          var newBank = new SupportBank(transactions, new List<Account>(){});
           var accounts = newBank.GetAccounts();
         //   newBank.PrintTransactions();
           foreach (var account in accounts)
