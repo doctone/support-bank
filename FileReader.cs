@@ -2,10 +2,10 @@ namespace SupportBank
 {
     public class FileReader
     {
-        public List<Transaction> GetTransactions()
+        public List<Transaction> GetTransactions(string path)
         {   
             var Transactions = new List<Transaction>();
-            var lines = System.IO.File.ReadAllLines("./Transactions2014.txt");
+            var lines = System.IO.File.ReadAllLines(path);
             for (int i=1; i < lines.Length; i++)
             {
                 string[] T = lines[i].Split(",");

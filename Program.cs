@@ -7,7 +7,7 @@ namespace SupportBank
         public static void Main(string[] args)
         {
           var fileReader = new FileReader();
-          List<Transaction> transactions = fileReader.GetTransactions();
+          List<Transaction> transactions = fileReader.GetTransactions("./Transactions2014.txt");
           var newBank = new SupportBank(transactions, new List<Account>(){});
           var accounts = newBank.GetAccounts();
         //   newBank.PrintTransactions();
