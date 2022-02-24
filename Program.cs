@@ -19,6 +19,7 @@ namespace SupportBank
             if (args[1] == "all")
             {
               newBank.ListAll();
+              return;
             }
           }
           // newBank.ListAll();
