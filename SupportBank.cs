@@ -11,7 +11,7 @@ namespace SupportBank
             Transactions = transactions;
             Accounts = accounts;
         }
-        public void PrintTransactions(string accountName)
+        public void List(string accountName)
         {
             var ts = GetTransactions(accountName);
             Console.WriteLine($"-------------------------------Transactions for {accountName} -------------------------------");
@@ -56,27 +56,6 @@ namespace SupportBank
                 Accounts.Add(new Account(name));
             }
             return Accounts;
-        }
-
-        public void ListAccount(Account account)
-        {
-            var accountTransactions = new List<Transaction>();
-            foreach (Transaction t in Transactions)
-            {
-                if (t.To == account.AccountName || t.From == account.AccountName)
-                {
-                    accountTransactions.Add(t);
-                }
-            }
-            Console.WriteLine($"-------------------------------Transactions for {account.AccountName} -------------------------------");
-                foreach (Transaction t in accountTransactions)
-                {
-                    Console.WriteLine("Transaction:");
-                    Console.WriteLine($"    {t.Date}");
-                    Console.WriteLine($"    from {t.From} to {t.To}");
-                    Console.WriteLine($"    {t.Narrative}");
-                    Console.WriteLine($"    Total: {t.Amount}");
-                }
         }
 
         public void ListAll()
