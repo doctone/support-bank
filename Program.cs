@@ -11,12 +11,9 @@ namespace SupportBank
           var newBank = new SupportBank(transactions, new List<Account>(){});
           var accounts = newBank.GetAccounts();
         //   newBank.PrintTransactions();
-          foreach (var account in accounts)
-          {
-            newBank.ProvideAccountTransactions(account);
-          }
-          newBank.ListAll();
-
+          
+          // newBank.ListAll();
+          newBank.ListAccount(accounts[0]);
         }
       
     }

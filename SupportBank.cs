@@ -44,15 +44,25 @@ namespace SupportBank
             return Accounts;
         }
 
-        public void ProvideAccountTransactions(Account account)
+        public void ListAccount(Account account)
         {
+            var accountTransactions = new List<Transaction>();
             foreach (Transaction t in Transactions)
             {
                 if (t.To == account.AccountName || t.From == account.AccountName)
                 {
-                    account.Transactions.Add(t);
+                    accountTransactions.Add(t);
                 }
             }
+            Console.WriteLine($"-------------------------------Transactions for {account.AccountName} -------------------------------");
+                foreach (Transaction t in accountTransactions)
+                {
+                    Console.WriteLine("Transaction:");
+                    Console.WriteLine($"    {t.Date}");
+                    Console.WriteLine($"    from {t.From} to {t.To}");
+                    Console.WriteLine($"    {t.Narrative}");
+                    Console.WriteLine($"    Total: {t.Amount}");
+                }
         }
 
         public void ListAll()
