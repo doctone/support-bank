@@ -11,9 +11,18 @@ namespace SupportBank
             Transactions = transactions;
             Accounts = accounts;
         }
-        public void PrintTransactions()
+        public void PrintTransactions(string accountName)
         {
-            foreach (var t in Transactions)
+            var personalTransactions = new List<Transaction>();
+
+            foreach (var t in Transactions) {
+                if (t.From == accountName || t.To == accountName) 
+                {
+                    personalTransactions.Add(t);
+                } 
+            }
+            Console.WriteLine($"-------------------------------Transactions for {accountName} -------------------------------");
+            foreach (Transaction t in personalTransactions)
             {
                 Console.WriteLine("Transaction:");
                 Console.WriteLine($"    {t.Date}");

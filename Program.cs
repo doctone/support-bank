@@ -16,6 +16,7 @@ namespace SupportBank
             newBank.ProvideAccountTransactions(account);
           }
           newBank.ListAll();
+          newBank.PrintTransactions("Ben B");
 
         }
       
