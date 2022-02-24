@@ -13,6 +13,19 @@ namespace SupportBank
         }
         public void PrintTransactions(string accountName)
         {
+            var ts = GetTransactions(accountName);
+            Console.WriteLine($"-------------------------------Transactions for {accountName} -------------------------------");
+            foreach (Transaction t in ts)
+            {
+                Console.WriteLine("Transaction:");
+                Console.WriteLine($"    {t.Date}");
+                Console.WriteLine($"    from {t.From} to {t.To}");
+                Console.WriteLine($"    {t.Narrative}");
+                Console.WriteLine($"    Total: {t.Amount}");
+            }
+        }
+        public List<Transaction> GetTransactions(string accountName)
+        {
             var personalTransactions = new List<Transaction>();
 
             foreach (var t in Transactions) {
@@ -21,15 +34,7 @@ namespace SupportBank
                     personalTransactions.Add(t);
                 } 
             }
-            Console.WriteLine($"-------------------------------Transactions for {accountName} -------------------------------");
-            foreach (Transaction t in personalTransactions)
-            {
-                Console.WriteLine("Transaction:");
-                Console.WriteLine($"    {t.Date}");
-                Console.WriteLine($"    from {t.From} to {t.To}");
-                Console.WriteLine($"    {t.Narrative}");
-                Console.WriteLine($"    Total: {t.Amount}");
-            }
+            return personalTransactions;
         }
 
         public List<Account> GetAccounts()
