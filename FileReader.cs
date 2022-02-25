@@ -36,7 +36,7 @@ namespace SupportBank
                 }
                 catch (FormatException e)
                 {
-                    Logger.Error($"Unable to parse date on line " + (i+1), e);
+                    Logger.Error($"'{T[0]}' is not a valid date on line " + (i+1), e);
                     throw new FormatException($"Unable to parse date on line " + (i+1), e);
                 }
 
@@ -46,17 +46,17 @@ namespace SupportBank
                 catch (FormatException e)
                 {
                     Logger.Error($"'{T[4]}' was not recognised as a valid amount.", e);
-                    throw new FormatException($"'{T[4]}'was not recognised as a valid amount.", e);
+                    // throw new FormatException($"'{T[4]}'was not recognised as a valid amount.", e);
                 }
 
                 try
                 {
-                    Transactions.Add(new Transaction(date, T[1], T[2], T[3], Amount));
+                    Transactions.Add(new Transaction(date, T[1], T[2], T[3], decimal.Parse(T[4])));
                 }
                 catch (FormatException e)
                 {
                     Logger.Error("Unable to parse Line " + (i + 1), e);
-                    throw new FormatException("Unable to parse Line " + (i + 1), e);
+                    // throw new FormatException("Unable to parse Line " + (i + 1), e);
                 
                 }
                 Logger.Info("Created" + lines[i]);
