@@ -30,6 +30,7 @@ namespace SupportBank
           Logger.Info($"Reading File from {path}");
           List<JsonTransaction> transactions = fileReader.ReadFile(path);
           var converter = new TransactionConverter();
+          Logger.Info("Reading transactions...");
           var bankTransactions = converter.JsonConverter(transactions);
           var newBank = new SupportBank(bankTransactions);
           Logger.Info("Creating New Bank");
