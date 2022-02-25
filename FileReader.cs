@@ -4,10 +4,10 @@ using NLog.Targets;
 
 namespace SupportBank
 {
-    public class FileReader
+    public class FileReader: IFileReader
     {
         private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
-        public List<Transaction> GetTransactions(string path)
+        public List<Transaction> ReadFile(string path)
         {   
             var Transactions = new List<Transaction>();
             var lines = System.IO.File.ReadAllLines(path);
@@ -15,7 +15,7 @@ namespace SupportBank
             var config = new LoggingConfiguration();
             DateTime currentDay = DateTime.Now;
             // Targets where to log to: File and Console
-            var logfile = new NLog.Targets.FileTarget("logfile") { FileName =  $@"C:\Users\samjam\Documents\code\Support-bank\SupportBank-{currentDay}.log"};
+            var logfile = new NLog.Targets.FileTarget("logfile") { FileName =  $@"C:\Teamwork\support-bank\logs\SupportBank-{currentDay}.log"};
             var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
 
             // Rules for mapping loggers to targets            

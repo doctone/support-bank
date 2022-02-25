@@ -13,7 +13,7 @@ namespace SupportBank
           var config = new LoggingConfiguration();
           DateTime currentDay = DateTime.Now;
           // Targets where to log to: File and Console
-          var logfile = new NLog.Targets.FileTarget("logfile") { FileName =  $@"C:\Users\samjam\Documents\code\Support-bank\SupportBank-{currentDay}.log"};
+          var logfile = new NLog.Targets.FileTarget("logfile") { FileName =  $@"C:\Teamwork\support-bank\logs\SupportBank-{currentDay}.log"};
           var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
 
           // Rules for mapping loggers to targets            
@@ -26,7 +26,7 @@ namespace SupportBank
           Logger.Info($"Starting Program at {currentDay}");
 
           var fileReader = new FileReader();
-          List<Transaction> transactions = fileReader.GetTransactions("./DodgyTransactions2015.csv");
+          List<Transaction> transactions = fileReader.ReadFile("./DodgyTransactions2015.csv");
           var newBank = new SupportBank(transactions);
           Logger.Info("Creating New Bank");
 

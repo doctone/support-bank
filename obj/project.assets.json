@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Json.Net/1.0.33": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
       "NLog/5.0.0-rc2": {
         "type": "package",
         "compile": {
@@ -14,6 +23,18 @@
     }
   },
   "libraries": {
+    "Json.Net/1.0.33": {
+      "sha512": "5tE+db6BqhRAvITIVBeRsQorLGshPExfm4FmMRvWWAfs4RxeTbFFj2PIEybwmMW0qR30HKkXDYhq0YkDK2Jtxw==",
+      "type": "package",
+      "path": "json.net/1.0.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "json.net.1.0.33.nupkg.sha512",
+        "json.net.nuspec",
+        "lib/netstandard2.0/Json.Net.dll"
+      ]
+    },
     "NLog/5.0.0-rc2": {
       "sha512": "F+y9t2obY9y0bxAaxvJJtbpBqFWkkqXZjMJPeT3SLqVvSNZq7aFax5cu57hkssHSDF1C/RsHT5uymcmPXgY9Vw==",
       "type": "package",
@@ -41,23 +62,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Json.Net >= 1.0.33",
       "NLog >= 5.0.0-rc2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samjam\\.nuget\\packages\\": {}
+    "C:\\Users\\linbal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\Support-bank.csproj",
+      "projectUniqueName": "c:\\Teamwork\\support-bank\\Support-bank.csproj",
       "projectName": "Support-bank",
-      "projectPath": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\Support-bank.csproj",
-      "packagesPath": "C:\\Users\\samjam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samjam\\Documents\\code\\Support-bank\\obj\\",
+      "projectPath": "c:\\Teamwork\\support-bank\\Support-bank.csproj",
+      "packagesPath": "C:\\Users\\linbal\\.nuget\\packages\\",
+      "outputPath": "c:\\Teamwork\\support-bank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\samjam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\linbal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -81,6 +103,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Json.Net": {
+            "target": "Package",
+            "version": "[1.0.33, )"
+          },
           "NLog": {
             "target": "Package",
             "version": "[5.0.0-rc2, )"
