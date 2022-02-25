@@ -1,0 +1,2 @@
+2022-02-25 12:35:20.9728|INFO|SupportBank.Program|Starting Program at 25/02/2022 12:35:20
+2022-02-25 12:35:21.0390|ERROR|SupportBank.FileReader|'Last Thursday' is not a valid date on line 52
