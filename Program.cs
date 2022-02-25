@@ -7,7 +7,7 @@ namespace SupportBank
         public static void Main(string[] args)
         {
           var fileReader = new FileReader();
-          List<Transaction> transactions = fileReader.GetTransactions("./Transactions2014.txt");
+          List<Transaction> transactions = fileReader.GetTransactions("./DodgyTransactions2015.csv");
           var newBank = new SupportBank(transactions);
 
           foreach (var arg in args)

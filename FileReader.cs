@@ -13,16 +13,32 @@ namespace SupportBank
             var lines = System.IO.File.ReadAllLines(path);
 
             var config = new LoggingConfiguration();
-            var target = new FileTarget { FileName = @"C:\Teamwork\support-bank\SupportBank.log", Layout = @"${longdate} ${level} - ${logger}: ${message}" };
-            config.AddTarget("File Logger", target);
-            config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
+
+            // Targets where to log to: File and Console
+            var logfile = new NLog.Targets.FileTarget("logfile") { FileName =  @"C:\Teamwork\support-bank\SupportBank.log"};
+            var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
+
+            // Rules for mapping loggers to targets            
+           config.AddRule(LogLevel.Info, LogLevel.Fatal, logconsole);
+            config.AddRule(LogLevel.Debug, LogLevel.Fatal, logfile);
+
+            // Apply config    
             LogManager.Configuration = config;
 
-            for (int i=1; i < lines.Length; i++)
+            for (int i = 1; i < lines.Length; i++)
             {
                 string[] T = lines[i].Split(",");
-                Transactions.Add(new Transaction(DateTime.Parse(T[0]),T[1],T[2],T[3],Decimal.Parse(T[4])));
-                Logger.Info("Created new transaction"+T[0]);
+                try
+                {
+                    Transactions.Add(new Transaction(DateTime.Parse(T[0]), T[1], T[2], T[3], Decimal.Parse(T[4])));
+                }
+                catch (FormatException e)
+                {
+                      Logger.Info("Unable to parse Line " + (i + 1), e);
+                  //  throw new FormatException("Unable to parse Line " + (i + 1), e);
+                
+                }
+                Logger.Info("Created" + lines[i]);
             }
             return Transactions;
         }

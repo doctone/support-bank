@@ -1,148 +1,80 @@
-2022-02-24 14:55:28.4599 Info - SupportBank.FileReader: Created new transaction01/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction04/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction08/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction11/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction15/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction19/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction20/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction24/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction31/01/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction04/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction05/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction07/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction10/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction15/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction18/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction25/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction27/02/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction03/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction07/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction10/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction17/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction20/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction27/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction30/03/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction04/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction06/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction08/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction09/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction10/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction11/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction15/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction19/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction20/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction24/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction26/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction30/04/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction03/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction05/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction06/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction10/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction13/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction17/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction19/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction24/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction26/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction30/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction31/05/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction05/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction09/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction11/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction16/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction20/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction26/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/06/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction02/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction06/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction09/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction11/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction16/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction18/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction25/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/07/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction03/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction04/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction08/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction11/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction13/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction18/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction21/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction24/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction25/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/08/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction01/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction03/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction06/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction09/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction12/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction16/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction20/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction24/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction27/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction30/09/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction04/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction06/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction10/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction18/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction19/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction25/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction30/10/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction02/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction04/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction07/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction09/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction11/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction18/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction19/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction21/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction23/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction25/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/11/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction02/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction06/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction09/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction12/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction14/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction16/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction18/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction20/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction21/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction22/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction25/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction28/12/2014
-2022-02-24 14:55:28.5060 Info - SupportBank.FileReader: Created new transaction29/12/2014
+2022-02-25 09:56:49.3195|INFO|SupportBank.FileReader|Created01/01/2015,Laura B,Sarah T,Misc Morale,10.54
+2022-02-25 09:56:49.3764|INFO|SupportBank.FileReader|Created04/01/2015,Stephen S,Gergana I,Lunch,3.22
+2022-02-25 09:56:49.3764|INFO|SupportBank.FileReader|Created07/01/2015,Ben B,Jon A,Fantasy Football,9.93
+2022-02-25 09:56:49.3827|INFO|SupportBank.FileReader|Created11/01/2015,Ben B,Todd,Lunch,7.33
+2022-02-25 09:56:49.3827|INFO|SupportBank.FileReader|Created12/01/2015,Laura B,Ben B,Beers,8.94
+2022-02-25 09:56:49.3827|INFO|SupportBank.FileReader|Created15/01/2015,Todd,Rob S,Beers,10.19
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created16/01/2015,Laura B,Jon A,Lego Assistance,0.69
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created18/01/2015,Jon A,Sarah T,Coffee,10.73
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created22/01/2015,Gergana I,Todd,Coffee,0.8
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created24/01/2015,Gergana I,Chris W,Coffee,8.49
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created27/01/2015,Laura B,Tim L,Jenkins Fees,0.52
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created29/01/2015,Sam N,Chris W,Lunch,9.01
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created01/02/2015,Stephen S,Laura B,Coffee,7.53
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created02/02/2015,Stephen S,Rob S,Fantasy Football,7.43
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created04/02/2015,Rob S,Stephen S,Fantasy Football,5.78
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created06/02/2015,Dan W,Gergana I,Automated Testing Services,10.29
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created07/02/2015,Jon A,Chris W,Rails Consultancy,7.37
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created10/02/2015,Sam N,Gergana I,Sandbox Help,9.84
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created11/02/2015,Chris W,Stephen S,Misc Morale,0.68
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created13/02/2015,Laura B,Gergana I,Beers,6.56
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created16/02/2015,Chris W,Dan W,Jenkins Fees,1.28
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created17/02/2015,Sarah T,Dan W,Sandbox Help,11.48
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created18/02/2015,Stephen S,Rob S,Lego Assistance,4.83
+2022-02-25 09:56:49.3997|INFO|SupportBank.FileReader|Created21/02/2015,Dan W,Ben B,Pokemon Training,0.5
+2022-02-25 09:56:49.4151|INFO|SupportBank.FileReader|Created24/02/2015,Todd,Gergana I,Coffee,9.08
+2022-02-25 09:56:49.4151|INFO|SupportBank.FileReader|Created26/02/2015,Stephen S,Jon A,Pokemon Training,4.23
+2022-02-25 09:56:49.4353|INFO|SupportBank.FileReader|Unable to parse Line 28
+2022-02-25 09:57:44.3711|INFO|SupportBank.FileReader|Created01/01/2015,Laura B,Sarah T,Misc Morale,10.54
+2022-02-25 09:57:44.4217|INFO|SupportBank.FileReader|Created04/01/2015,Stephen S,Gergana I,Lunch,3.22
+2022-02-25 09:57:44.4217|INFO|SupportBank.FileReader|Created07/01/2015,Ben B,Jon A,Fantasy Football,9.93
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created11/01/2015,Ben B,Todd,Lunch,7.33
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created12/01/2015,Laura B,Ben B,Beers,8.94
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created15/01/2015,Todd,Rob S,Beers,10.19
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created16/01/2015,Laura B,Jon A,Lego Assistance,0.69
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created18/01/2015,Jon A,Sarah T,Coffee,10.73
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created22/01/2015,Gergana I,Todd,Coffee,0.8
+2022-02-25 09:57:44.4323|INFO|SupportBank.FileReader|Created24/01/2015,Gergana I,Chris W,Coffee,8.49
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created27/01/2015,Laura B,Tim L,Jenkins Fees,0.52
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created29/01/2015,Sam N,Chris W,Lunch,9.01
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created01/02/2015,Stephen S,Laura B,Coffee,7.53
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created02/02/2015,Stephen S,Rob S,Fantasy Football,7.43
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created04/02/2015,Rob S,Stephen S,Fantasy Football,5.78
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created06/02/2015,Dan W,Gergana I,Automated Testing Services,10.29
+2022-02-25 09:57:44.4477|INFO|SupportBank.FileReader|Created07/02/2015,Jon A,Chris W,Rails Consultancy,7.37
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created10/02/2015,Sam N,Gergana I,Sandbox Help,9.84
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created11/02/2015,Chris W,Stephen S,Misc Morale,0.68
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created13/02/2015,Laura B,Gergana I,Beers,6.56
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created16/02/2015,Chris W,Dan W,Jenkins Fees,1.28
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created17/02/2015,Sarah T,Dan W,Sandbox Help,11.48
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created18/02/2015,Stephen S,Rob S,Lego Assistance,4.83
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created21/02/2015,Dan W,Ben B,Pokemon Training,0.5
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created24/02/2015,Todd,Gergana I,Coffee,9.08
+2022-02-25 09:57:44.4629|INFO|SupportBank.FileReader|Created26/02/2015,Stephen S,Jon A,Pokemon Training,4.23
+2022-02-25 09:57:44.4863|INFO|SupportBank.FileReader|Unable to parse Line 28
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created02/03/2015,Todd,Chris W,Sandbox Help,1.92
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created04/03/2015,Laura B,Jon A,Sandcastle Help,9.09
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created06/03/2015,Stephen S,Gergana I,Lego Assistance,9.4
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created08/03/2015,Ben B,Sam N,Pokemon Training,11.32
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created11/03/2015,Stephen S,Jon A,Sandcastle Help,11.57
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created15/03/2015,Todd,Sam N,Pokemon Training,2.29
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created19/03/2015,Laura B,Chris W,Coffee,9.96
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created21/03/2015,Jon A,Gergana I,Beers,7.54
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created25/03/2015,Gergana I,Ben B,Automated Testing Services,2.39
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created28/03/2015,Stephen S,Tim L,Lunch,5.83
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created29/03/2015,Gergana I,Ben B,Audit and Other Financial Services,10.85
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created30/03/2015,Tim L,Todd,Pokemon Training,8.6
+2022-02-25 09:57:44.5142|INFO|SupportBank.FileReader|Created02/04/2015,Stephen S,Chris W,Pokemon Training,1.11
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created05/04/2015,Chris W,Ben B,Lunch,0.96
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created09/04/2015,Chris W,Rob S,Audit and Other Financial Services,11.79
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created12/04/2015,Gergana I,Laura B,Stationary Items,8.37
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created13/04/2015,Laura B,Tim L,Services Rendered,1.27
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created15/04/2015,Ben B,Sam N,Lego Assistance,8.5
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created19/04/2015,Stephen S,Chris W,White Water Rafting,8.91
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created23/04/2015,Tim L,Todd,Misc Morale,8.1
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created24/04/2015,Tim L,Sarah T,Arcade Social,6.38
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created26/04/2015,Jon A,Todd,Stationary Items,8.44
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Created27/04/2015,Ben B,Jon A,Pokemon Training,10.91
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|Unable to parse Line 52
+2022-02-25 09:57:44.5243|INFO|SupportBank.FileReader|CreatedLast Thursday,Sarah T,Dan W,Beers,5.42
