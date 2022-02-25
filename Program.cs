@@ -28,8 +28,10 @@ namespace SupportBank
           var fileReader = new JsonReader();
           var path = "./Transactions2013.json";
           Logger.Info($"Reading File from {path}");
-          List<Transaction> transactions = fileReader.ReadFile(path);
-          var newBank = new SupportBank(transactions);
+          List<JsonTransaction> transactions = fileReader.ReadFile(path);
+          var converter = new TransactionConverter();
+          var bankTransactions = converter.JsonConverter(transactions);
+          var newBank = new SupportBank(bankTransactions);
           Logger.Info("Creating New Bank");
 
           foreach (var arg in args)

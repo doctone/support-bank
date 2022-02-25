@@ -1,0 +1,3 @@
+2022-02-25 14:32:02.6480|INFO|SupportBank.Program|Starting Program at 25/02/2022 14:32:02
+2022-02-25 14:32:02.6729|INFO|SupportBank.Program|Reading File from ./Transactions2013.json
+2022-02-25 14:32:02.8589|INFO|SupportBank.Program|Creating New Bank

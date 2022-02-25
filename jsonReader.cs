@@ -3,12 +3,12 @@ using Newtonsoft.Json;
 
 namespace SupportBank
 {
-    public class JsonReader : IFileReader
+    public class JsonReader
     {
         private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
-        public List<Transaction> ReadFile(string path)
+        public List<JsonTransaction> ReadFile(string path)
         {
-            var t = JsonConvert.DeserializeObject<List<Transaction>>(File.ReadAllText(path));
+            var t = JsonConvert.DeserializeObject<List<JsonTransaction>>(File.ReadAllText(path));
             return t;
         }
     }
