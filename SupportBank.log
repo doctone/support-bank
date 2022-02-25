@@ -1,3 +1,0 @@
-2022-02-25 11:38:23.0347|ERROR|SupportBank.FileReader|'One Cheeseburger' was not recognised as a valid amount.
-2022-02-25 11:38:23.0843|ERROR|SupportBank.FileReader|Unable to parse Line 28
-2022-02-25 11:38:23.0843|ERROR|SupportBank.FileReader|'Last Thursday' is not a valid date on line 52

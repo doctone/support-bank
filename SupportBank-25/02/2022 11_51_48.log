@@ -1,0 +1,2 @@
+2022-02-25 11:51:48.5539|INFO|SupportBank.Program|Starting Program at 25/02/2022 11:51:48
+2022-02-25 11:51:48.6703|ERROR|SupportBank.FileReader|'One Cheeseburger' was not recognised as a valid amount.
